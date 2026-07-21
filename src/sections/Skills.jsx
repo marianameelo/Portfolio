@@ -15,10 +15,10 @@ export default function Hero() {
       <div className="flex flex-col lg:flex-row gap-10 m-10  items-center">
         <div className="flex flex-col mb-2">
           <p className="font-semibold text-[#8B5CF6] text-xs mb-2">SKILLS</p>
-          <div className="flex gap-2 mb-2">
-            <p className="font-bold text-white text-2xl">Tecnologias que eu</p>
-            <span className="font-bold text-[#8B5CF6] text-2xl">utilizo</span>
-          </div>
+          <p className="font-bold text-2xl mb-2">
+            <span className="text-white">Tecnologias que eu </span>
+            <span className="text-[#8B5CF6]">utilizo</span>
+          </p>
           <div className="flex flex-wrap gap-4">
             <Card Icon={FaHtml5} title="HTML" />
             <Card Icon={IoLogoCss3} title="CSS" />
